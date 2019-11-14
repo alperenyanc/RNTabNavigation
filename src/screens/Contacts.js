@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
-import 'react-native-gesture-handler';
 import {Text, StyleSheet, View} from 'react-native';
-import Router from './src/Router';
 
-export default class App extends Component {
+export default class Contacts extends Component {
   render() {
-    return <Router />;
+    return (
+      <View style={styles.container}>
+        <Text> Settings </Text>
+      </View>
+    );
   }
 }
 
@@ -14,6 +16,5 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
   },
 });
