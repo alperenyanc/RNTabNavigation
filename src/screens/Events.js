@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import {Text, StyleSheet, View} from 'react-native';
 
-export default class Settings extends Component {
+export default class Events extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text> Settings </Text>
+        <Text> Events </Text>
       </View>
     );
   }

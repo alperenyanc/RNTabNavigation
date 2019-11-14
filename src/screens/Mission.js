@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import {Text, StyleSheet, View} from 'react-native';
 
-export default class Contacts extends Component {
+export default class Mission extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text> Settings </Text>
+        <Text> Mission </Text>
       </View>
     );
   }
