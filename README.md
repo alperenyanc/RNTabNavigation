@@ -28,10 +28,9 @@ for Android emulator..  Stack Navigator  title center example
 
 header Title 'Center' solutions =>  
 1)
-            const EventStack = createStackNavigator(
-            {
-            Envents: 
-            {
+
+            const EventStack = createStackNavigator({
+            Envents: {
                 screen: Events,
                 navigationOptions:
                 {
