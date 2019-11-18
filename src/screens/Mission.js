@@ -1,20 +1,16 @@
 import React, {Component} from 'react';
 import {Text, StyleSheet, View} from 'react-native';
 
+import MissionList from '../components/MissionList';
+
 export default class Mission extends Component {
   render() {
-    return (
-      <View style={styles.container}>
-        <Text> Mission </Text>
-      </View>
-    );
+    return <MissionList navigation={this.props.navigation} />;
   }
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
   },
 });
